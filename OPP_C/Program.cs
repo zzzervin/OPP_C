@@ -11,7 +11,8 @@ namespace OPP_C
         static void Main(string[] args)
         {
             double hind = 15;
-            
+            int chena = 0;
+
             string pilet = "";
             string n1 = "";
             string n2 = "";
@@ -75,7 +76,7 @@ namespace OPP_C
                         }
                         
                             Console.WriteLine($"{nimi}, sul vaja maksta {hind} ja {pilet}pilet");
-                        }
+                    }
 
                 }
                 else if (vastus.ToUpper() == "EI" || vastus.ToUpper() == "НЕТ")
@@ -122,17 +123,15 @@ namespace OPP_C
             string seinte = Console.ReadLine().ToUpper();
             if (seinte=="JAH")
             {
-                
+              
             }
 
             else if (seinte == "EI")
             {
 
             }
-
-
-
-
+            
+            ////////////////////////////////////////////////////////////////////////////////////
 
 
 
