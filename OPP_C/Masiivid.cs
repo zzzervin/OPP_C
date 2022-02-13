@@ -35,7 +35,7 @@ namespace OPP_C
                 Console.WriteLine(i*i);
             }
             */
-
+            /*
             int[] b = new int[5] ;
             int i;
 
@@ -56,10 +56,12 @@ namespace OPP_C
             Console.WriteLine($"{summ}");
             Console.WriteLine($"{korrutis}");
             Console.WriteLine($"{summ / b.Length}");
+            */
             /*
-             string[] nimed = new string[5] { "Ervingh", "Oligarh", "Dina", "Maha", "Arbuz" };
-             Console.Write("jrkorde number");
-             int a;
+            string[] nimed = new string[5] { "Ervingh", "Oligarh", "Dina", "Maha", "Arbuz" };
+            int a=0;
+            Console.Write("jrkorde number");
+             
              do
              {
                  Console.Write("jrkorde number(tavaline inimene)1-5: ");//1.2,3.4,5
@@ -77,8 +79,52 @@ namespace OPP_C
              Console.WriteLine(nimed[a-1]);
              */
 
+            /*
+            string[] b = new string[4];
+            int i;
+            string ARV="";
+            
+            for (i = 0; i < b.Length; i++)
+            {
+                Console.WriteLine("numbrit");
+                b[i] = (Console.ReadLine());
+                
+            }
+            Array.Sort(b);
+            Array.Reverse(b);
+            for (i = 0; i < b.Length; i++)
+            {
+                ARV += b[i];
+            }
+           
+            Console.Write(ARV);
+            */
+            /*
+            int i=1;                      
+            do
+            {
+                    
+                        for (int j = 1; j <= 10; j++)
+                        {
+                            Console.Write($"{i * j,4}");                         
+                        }
+                        Console.WriteLine();
+                        i += 1;
 
+            } while (i<=10);
+            */
+            /*
+            string S;
+            int Q=0 ;
+            do
+            {                     
+                Console.WriteLine($"Osta elevant ära!");
+                Q += 1;
+                    
+                S = Console.ReadLine().ToLower();
 
+            } while (S!= "elevant");
+            */
             Console.ReadKey();
         }
     }
